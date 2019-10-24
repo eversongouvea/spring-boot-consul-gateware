@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: apiGateway
+server:
+  port: 8090
+
+zuul:
+  ignored-patterns: /actuator/**
+  prefix: /api
